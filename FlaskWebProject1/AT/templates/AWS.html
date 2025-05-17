@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }} Dashboard</h2>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+        gap: 20px;
+    }
+
+    .category-box {
+         
+        padding: 15px;
+        background: #f9f9f9;
+    }
+
+        
+</style>
+
+<div class="grid-container">
+    {% for doc in data %}
+    {% for category, services in doc.items() %}
+    {% if category != '_id' %}
+    <div class="category-box">
+        <h3>{{ category }}</h3>
+        <ul>
+            {% for service in services %}
+            <li><a href="{{ url_for('AWS', service_name=service) }}">{{ service }}</a></li>
+
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Providers List</h1>
+  
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <a href="{{ url_for('AWS') }}">
+        <h2>AWS</h2></a>
+    </div>
+    <div class="col-md-4">
+        <a href="{{ url_for('GCP') }}">
+            <h2>GCP</h2></a>
+    </div>
+    <div class="col-md-4">
+        <a href="{{ url_for('AZURE') }}">
+            <h2>Microsoft Azure</h2></a>
+    </div>
+</div>
+
+{% endblock %}
