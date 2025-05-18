@@ -3,48 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\create_aws_architecture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\create_aws_architecture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\AWS.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\AWS.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\static\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +86,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "layout.html",
+              "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\layout.html",
+              "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\layout.html",
+              "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\layout.html",
+              "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\layout.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T09:35:29.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "create_aws_arc.css",
+              "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css",
+              "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css",
+              "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css",
+              "RelativeToolTip": "FlaskWebProject1\\AT\\static\\content\\create_aws_arc.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T09:33:10.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "create_aws_architecture.html",
+              "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
+              "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
+              "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
+              "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-18T07:07:18.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\requirements.txt",
+              "RelativeDocumentMoniker": "FlaskWebProject1\\requirements.txt",
+              "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\requirements.txt",
+              "RelativeToolTip": "FlaskWebProject1\\requirements.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-17T04:48:36.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EC2_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\AWS_routes\\EC2_routes.py",
@@ -82,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "aws_services_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py",
@@ -90,12 +155,11 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\routes\\AWS_routes\\aws_services_routes.py",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-16T02:16:04.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T02:16:04.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "VPC_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\AWS_routes\\VPC_routes.py",
@@ -107,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "VPC.html",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\AWS_templates\\VPC.html",
@@ -125,49 +189,49 @@
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\index.html",
               "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\index.html",
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-16T02:03:49.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\site.css",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\static\\content\\site.css",
               "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\static\\content\\site.css",
               "RelativeToolTip": "FlaskWebProject1\\AT\\static\\content\\site.css",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAACwAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-16T01:59:05.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AWS.html",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS.html",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\AWS.html",
               "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\AWS.html",
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\AWS.html",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAUwB4AAAA/AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-16T01:49:53.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "index_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\index_routes.py",
               "ToolTip": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py",
               "RelativeToolTip": "FlaskWebProject1\\AT\\routes\\index_routes.py",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwC8AAAARAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-16T01:34:39.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "__init__.py (AT.routes)",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\__init__.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\__init__.py",
@@ -179,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "__init__.py (AT)",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\AT\\__init__.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\__init__.py",
@@ -191,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "runserver.py",
               "DocumentMoniker": "C:\\Users\\SAM\\OneDrive\\Desktop\\AT\\FlaskWebProject1\\runserver.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\runserver.py",

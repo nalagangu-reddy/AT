@@ -50,7 +50,9 @@
     <Folder Include="AT\templates\AWS_templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AT\static\content\create_aws_arc.css" />
     <Content Include="AT\templates\AWS.html" />
+    <Content Include="AT\templates\create_aws_architecture.html" />
     <Content Include="AT\templates\AZURE.html" />
     <Content Include="AT\templates\GCP.html" />
     <Content Include="requirements.txt" />

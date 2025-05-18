@@ -37,16 +37,28 @@ def about():
     )
 
 
-@app.route('/AWS')
-def AWS():
-    """Get data from the 'service_category' collection dynamically."""
-    service_category_collection = db["service_category"]
-    data = list(service_category_collection.find())
-    return render_template(
-        'AWS.html',
+@app.route('/create_aws_architecture')
+def create_aws_architecture():
+     AWS_Category= db["AWS_Category"]
+     data = list(AWS_Category.find())
+     return render_template(
+        'create_aws_architecture.html',
         title='AWS',
         data=data
+        
     )
+
+# @app.route('/AWS')
+# def AWS():
+#     """Get data from the 'service_category' collection dynamically."""
+#     service_category_collection = db["service_category"]
+#     data = list(service_category_collection.find())
+#     return render_template(
+#         'AWS.html',
+#         title='AWS',
+#         data=data
+#     )
+
 
 
 @app.route('/GCP')

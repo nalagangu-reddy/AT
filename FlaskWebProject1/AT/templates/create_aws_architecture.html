@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="main-content">
+    <h2>Create {{ title }} Architecture</h2>
+
+    <!-- Form to input Architecture Name -->
+    <form method="POST" action="">
+        <label for="architecture_name">Architecture Name:</label>
+        <input type="text" id="architecture_name" name="architecture_name" required>
+
+
+
+        <div class="top-bar">
+            <h3>Category</h3>
+            <ul>
+                {% for doc in data %}
+                <li>
+                    <div class="category-box">
+                        <input type="checkbox" id="cat-{{ loop.index }}" name="category" value="{{ doc.aws_category_name }}">
+                        <label for="cat-{{ loop.index }}">{{ doc.aws_category_name }}</label>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}
