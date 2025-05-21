@@ -1,11 +1,12 @@
-"""
-Routes and views for the flask application.
-"""
+
 
 from datetime import datetime
-from flask import render_template
+from flask import render_template, request
 from AT import app,db
 
+from bson.objectid import ObjectId
+from flask import redirect, url_for, request
+ 
 @app.route('/')
 @app.route('/home')
 def home():
@@ -39,25 +40,56 @@ def about():
 
 @app.route('/create_aws_architecture')
 def create_aws_architecture():
-     AWS_Category= db["AWS_Category"]
+     AWS_Category= db["Services_by_category"]
      data = list(AWS_Category.find())
+     print(data)
      return render_template(
         'create_aws_architecture.html',
         title='AWS',
         data=data
-        
-    )
+       
+    ) 
 
-# @app.route('/AWS')
-# def AWS():
-#     """Get data from the 'service_category' collection dynamically."""
-#     service_category_collection = db["service_category"]
-#     data = list(service_category_collection.find())
-#     return render_template(
-#         'AWS.html',
-#         title='AWS',
-#         data=data
-#     )
+
+
+
+@app.route('/create_architecture', methods=['POST'])
+def create_architecture():
+    architecture_name = request.form.get('architecture_name')
+    selected_services = request.form.getlist('services')
+
+    print("Architecture Name:", architecture_name)
+    print("Selected Services:", selected_services)
+     
+    db["aws_architecture_table"].insert_one({
+        "architecture_name": architecture_name,
+        "services": selected_services
+    })
+     
+    return redirect(url_for('aws_dashboard'))
+
+
+@app.route('/aws_dashboard')
+def aws_dashboard():
+    architectures = list(db["aws_architecture_table"].find()) 
+    for arch in architectures:
+        arch['_id'] = str(arch['_id'])
+    return render_template('aws_dashboard.html', architectures=architectures)
+
+
+
+
+
+@app.route('/delete_architecture/<arch_id>', methods=['POST'])
+def delete_architecture(arch_id):
+    try:
+        db["aws_architecture_table"].delete_one({"_id": ObjectId(arch_id)})
+        print(f"Deleted architecture with id: {arch_id}")
+    except Exception as e:
+        print(f"Error deleting architecture: {e}")
+    return redirect(url_for('aws_dashboard'))
+
+
 
 
 

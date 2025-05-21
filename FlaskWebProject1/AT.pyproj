@@ -32,7 +32,6 @@
     <Compile Include="AT\routes\AWS_routes\aws_services_routes.py" />
     <Compile Include="AT\routes\AWS_routes\EC2_routes.py" />
     <Compile Include="AT\routes\AWS_routes\VPC_routes.py" />
-    <Compile Include="AT\routes\__init__.py" />
     <Compile Include="AT\templates\AWS_templates\VPC.html" />
     <Compile Include="runserver.py" />
     <Compile Include="AT\__init__.py" />
@@ -50,15 +49,14 @@
     <Folder Include="AT\templates\AWS_templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AT\static\content\create_aws_arc.css" />
     <Content Include="AT\templates\AWS.html" />
+    <Content Include="AT\templates\aws_dashboard.html" />
     <Content Include="AT\templates\create_aws_architecture.html" />
     <Content Include="AT\templates\AZURE.html" />
     <Content Include="AT\templates\GCP.html" />
     <Content Include="requirements.txt" />
     <Content Include="AT\static\content\bootstrap.css" />
     <Content Include="AT\static\content\bootstrap.min.css" />
-    <Content Include="AT\static\content\site.css" />
     <Content Include="AT\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="AT\static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="AT\static\fonts\glyphicons-halflings-regular.ttf" />
