@@ -1,25 +1,32 @@
 {% extends "layout.html" %}
 
 {% block content %}
-
-<div class="jumbotron">
-    <h1>Providers List</h1>
-  
+<div class="jumbotron text-center">
+    <h1>Cloud Service Providers</h1>
+    <p class="lead">Select a provider to access its dashboard</p>
 </div>
 
-<div class="row">
+<div class="row text-center">
     <div class="col-md-4">
-        <a href="{{ url_for('aws_dashboard') }}">
-        <h2>AWS</h2></a>
+        <div class="well">
+            <h3>AWS</h3>
+            <p>Amazon Web Services</p>
+            <a href="{{ url_for('aws.aws_dashboard') }}" class="btn btn-default">Go to AWS</a>
+        </div>
     </div>
     <div class="col-md-4">
-        <a href="{{ url_for('GCP') }}">
-            <h2>GCP</h2></a>
+        <div class="well">
+            <h3>GCP</h3>
+            <p>Google Cloud Platform</p>
+            <a href="{{ url_for('GCP') }}" class="btn btn-default">Go to GCP</a>
+        </div>
     </div>
     <div class="col-md-4">
-        <a href="{{ url_for('AZURE') }}">
-            <h2>Microsoft Azure</h2></a>
+        <div class="well">
+            <h3>Microsoft Azure</h3>
+            <p>Cloud services by Microsoft</p>
+            <a href="{{ url_for('AZURE') }}" class="btn btn-default">Go to Azure</a>
+        </div>
     </div>
 </div>
-
 {% endblock %}

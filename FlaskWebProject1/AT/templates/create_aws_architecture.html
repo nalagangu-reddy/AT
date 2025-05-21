@@ -1,41 +1,37 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="container-fluid py-5 px-4">
+<div class="container py-5">
 
-    <h2>Create {{ title }} Architecture</h2>
+    <h2 class="mb-4">Create {{ title }} Architecture</h2>
+    <form method="POST" action="{{ url_for('aws.create_architecture') }}">
 
-    <form method="POST" action="/create_architecture">
-        <!-- single form starts here -->
-
+        <!-- Architecture Name -->
         <div class="mb-4">
             <label for="architecture_name" class="form-label">Architecture Name:</label>
             <input type="text" class="form-control" id="architecture_name" name="architecture_name" required>
         </div>
 
-        <h3>Categories and Services</h3>
+        <h4 class="mb-3">Select Services</h4>
 
-        {% for category in data %}
-        <div class="card mb-4 shadow-sm">
-            <div class="card-header bg-primary text-white d-flex align-items-center">
-                <label class="form-check-label fw-bold mb-0" for="cat-{{ loop.index }}">{{ category.category_name }}</label>
-            </div>
-            <div class="card-body d-flex flex-wrap gap-3">
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+            {% for category in data %}
+            <div style="flex: 1 1 30%; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; min-width: 280px;">
+                <h3 style="margin-bottom: 1rem;">{{ category.category_name }}</h3>
                 {% for service in category.services %}
-                <div class="form-check" style="min-width: 200px;">
+                <div class="form-check mb-1">
                     <input class="form-check-input" type="checkbox" id="svc-{{ loop.index }}-{{ loop.index0 }}" name="services" value="{{ service.service_name }}">
-                    <label class="form-check-label" for="svc-{{ loop.index }}-{{ loop.index0 }}" style="cursor: pointer;">
+                    <label class="form-check-label" for="svc-{{ loop.index }}-{{ loop.index0 }}">
                         {{ service.service_name }}
                     </label>
                 </div>
                 {% endfor %}
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
 
-        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-success mt-4">Submit</button>
 
-    </form> <!-- single form ends here -->
-
+    </form>
 </div>
 {% endblock %}

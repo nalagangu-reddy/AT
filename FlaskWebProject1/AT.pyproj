@@ -29,9 +29,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AT\routes\AWS_routes\aws_services_routes.py" />
-    <Compile Include="AT\routes\AWS_routes\EC2_routes.py" />
-    <Compile Include="AT\routes\AWS_routes\VPC_routes.py" />
+    <Compile Include="AT\routes\AWS_routes.py" />
     <Compile Include="AT\templates\AWS_templates\VPC.html" />
     <Compile Include="runserver.py" />
     <Compile Include="AT\__init__.py" />
@@ -40,7 +38,6 @@
   <ItemGroup>
     <Folder Include="AT\" />
     <Folder Include="AT\routes\" />
-    <Folder Include="AT\routes\AWS_routes\" />
     <Folder Include="AT\static\" />
     <Folder Include="AT\static\content\" />
     <Folder Include="AT\static\fonts\" />
@@ -49,6 +46,7 @@
     <Folder Include="AT\templates\AWS_templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AT\static\content\layout.css" />
     <Content Include="AT\templates\AWS.html" />
     <Content Include="AT\templates\aws_dashboard.html" />
     <Content Include="AT\templates\create_aws_architecture.html" />
