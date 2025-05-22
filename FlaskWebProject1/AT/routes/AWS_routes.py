@@ -17,21 +17,33 @@ def create_aws_architecture():
 @aws_bp.route('/create_architecture', methods=['POST'])
 def create_architecture():
     architecture_name = request.form.get('architecture_name')
-    selected_services = request.form.getlist('services')
-     
+    selected_services_raw = request.form.getlist('services')
 
+    # Group by category
+    services_by_category = {}
+    for item in selected_services_raw:
+        category, service = item.split('::', 1)
+        if category not in services_by_category:
+            services_by_category[category] = []
+        services_by_category[category].append(service)
+
+    # Save to DB
     db["aws_architecture_table"].insert_one({
         "architecture_name": architecture_name,
-        "services": selected_services
+        "services": services_by_category
     })
 
     return redirect(url_for('aws.aws_dashboard'))
+
+
+
 
 @aws_bp.route('/aws_dashboard')
 def aws_dashboard():
      architectures = list(db["aws_architecture_table"].find())
      for arch in architectures:
           arch['_id'] = str(arch['_id'])
+     print(architectures)
      return render_template('aws_dashboard.html', architectures=architectures)
 
 

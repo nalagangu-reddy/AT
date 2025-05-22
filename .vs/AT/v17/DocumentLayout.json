@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\aws_dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\AWS_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\routes\\index_routes.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\GCP.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\AT\\templates\\GCP.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|solutionrelative:FlaskWebProject1\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8715DA05-817A-4358-8FB4-4ABA312BABBD}|FlaskWebProject1\\AT.pyproj|C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\layout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GCP.html",
               "DocumentMoniker": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\GCP.html",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\GCP.html",
@@ -98,18 +98,17 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\GCP.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T17:33:20.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:33:20.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AWS_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\AWS_routes.py",
               "ToolTip": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\AWS_routes.py",
               "RelativeToolTip": "FlaskWebProject1\\AT\\routes\\AWS_routes.py",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAqwA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-21T17:14:25.974Z",
               "EditorCaption": ""
@@ -124,8 +123,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\about.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T17:08:25.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:08:25.798Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\AWS.html",
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T17:08:21.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:08:21.525Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\contact.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T17:07:50.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:07:50.783Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\__init__.py",
               "ViewState": "AQIAAAQAAAAAAAAAAAAUwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-21T17:05:38.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:05:38.34Z"
             },
             {
               "$type": "Document",
@@ -176,25 +171,24 @@
               "RelativeToolTip": "FlaskWebProject1\\requirements.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-21T17:05:28.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T17:05:28.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "runserver.py",
               "DocumentMoniker": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\runserver.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\runserver.py",
               "ToolTip": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\runserver.py",
               "RelativeToolTip": "FlaskWebProject1\\runserver.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-05-21T17:04:26.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index_routes.py",
               "DocumentMoniker": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\routes\\index_routes.py",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\routes\\index_routes.py",
@@ -202,8 +196,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\routes\\index_routes.py",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-05-21T02:06:40.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T02:06:40.573Z"
             },
             {
               "$type": "Document",
@@ -213,7 +206,7 @@
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
               "ToolTip": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\create_aws_architecture.html",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAswB0AAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-21T02:00:12.82Z",
               "EditorCaption": ""
@@ -226,14 +219,14 @@
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\aws_dashboard.html",
               "ToolTip": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\aws_dashboard.html",
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\aws_dashboard.html",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAVAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwB8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-21T01:59:06.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\SAM\\Desktop\\AT\\FlaskWebProject1\\AT\\templates\\index.html",
               "RelativeDocumentMoniker": "FlaskWebProject1\\AT\\templates\\index.html",
@@ -241,8 +234,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\index.html",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T01:55:57.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:55:57.418Z"
             },
             {
               "$type": "Document",
@@ -254,8 +246,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\static\\content\\layout.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T01:46:26.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:46:26.489Z"
             },
             {
               "$type": "Document",
@@ -267,8 +258,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\templates\\layout.html",
               "ViewState": "AQIAACAAAAAAAAAAAAAYwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-21T01:42:41.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:42:41.487Z"
             },
             {
               "$type": "Document",
@@ -280,8 +270,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\static\\content\\bootstrap.min.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T01:42:25.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:42:25.047Z"
             },
             {
               "$type": "Document",
@@ -293,8 +282,7 @@
               "RelativeToolTip": "FlaskWebProject1\\AT\\static\\content\\bootstrap.css",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-21T01:42:17.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:42:17.178Z"
             }
           ]
         }

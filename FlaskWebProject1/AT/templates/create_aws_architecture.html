@@ -2,26 +2,39 @@
 
 {% block content %}
 <div class="container py-5">
+    <h2 class="mb-4">{{ "Update" if update_mode else "Create" }} {{ title }} Architecture</h2>
 
-    <h2 class="mb-4">Create {{ title }} Architecture</h2>
-    <form method="POST" action="{{ url_for('aws.create_architecture') }}">
+    <form method="POST"
+          action="{{ url_for('aws.update_architecture', arch_id=architecture._id) if update_mode else url_for('aws.create_architecture') }}">
 
-        <!-- Architecture Name -->
         <div class="mb-4">
             <label for="architecture_name" class="form-label">Architecture Name:</label>
-            <input type="text" class="form-control" id="architecture_name" name="architecture_name" required>
+            <input type="text"
+                   class="form-control"
+                   id="architecture_name"
+                   name="architecture_name"
+                   required
+                   value="{{ architecture.architecture_name if update_mode else '' }}">
         </div>
 
         <h4 class="mb-3">Select Services</h4>
-
         <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
             {% for category in data %}
             <div style="flex: 1 1 30%; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; min-width: 280px;">
                 <h3 style="margin-bottom: 1rem;">{{ category.category_name }}</h3>
                 {% for service in category.services %}
+                {% set checked = '' %}
+                {% if update_mode and category.category_name in architecture.services and service.service_name in architecture.services[category.category_name] %}
+                {% set checked = 'checked' %}
+                {% endif %}
                 <div class="form-check mb-1">
-                    <input class="form-check-input" type="checkbox" id="svc-{{ loop.index }}-{{ loop.index0 }}" name="services" value="{{ service.service_name }}">
-                    <label class="form-check-label" for="svc-{{ loop.index }}-{{ loop.index0 }}">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           id="svc-{{ category.category_name }}-{{ loop.index }}"
+                           name="services"
+                           value="{{ category.category_name }}::{{ service.service_name }}"
+                           {{ checked }}>
+                    <label class="form-check-label" for="svc-{{ category.category_name }}-{{ loop.index }}">
                         {{ service.service_name }}
                     </label>
                 </div>
@@ -30,8 +43,9 @@
             {% endfor %}
         </div>
 
-        <button type="submit" class="btn btn-success mt-4">Submit</button>
-
+        <button type="submit" class="btn btn-success mt-4">
+            {{ "Update" if update_mode else "Create" }}
+        </button>
     </form>
 </div>
 {% endblock %}
