@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container py-5">
+    <h3>Add Terraform Modules for Architecture: {{ arch_name }}</h3>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+        {% if modules %}
+        {% for module in modules %}
+        <div style="flex: 1 1 30%; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; min-width: 280px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h4 style="margin-bottom: 0.5rem;">{{ module.module_name }}</h4>
+            <p><strong>Module ID:</strong> {{ module.ter_id }}</p>
+            <p>{{ module.description }}</p>
+        </div>
+        {% endfor %}
+        {% else %}
+        <div style="width: 100%; padding: 1rem; border: 1px solid #ddd; border-radius: 6px;">
+            No modules found.
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

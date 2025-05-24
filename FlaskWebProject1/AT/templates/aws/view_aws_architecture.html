@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container" style="padding: 2rem 0;">
+
+    <!-- Back Button at Top-Left -->
+    <div style="margin-bottom: 1.5rem;">
+        <a href="{{ url_for('aws.aws_dashboard') }}" class="btn btn-secondary">? Back to Dashboard</a>
+    </div>
+
+    <!-- Architecture Title and Add Module Button -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <h2>{{ architecture.architecture_name }}</h2>
+        <a href="{{ url_for('tmod.add_terra_modules', arch_id=architecture._id) }}" class="btn btn-info">
+            Add Module
+        </a>
+
+        
+    </div>
+
+    <!-- Outer div wrapping all categories -->
+    <div>
+        <div class="row">
+            {% for category, services in architecture.services.items() %}
+            <div class="col-md-6" style="margin-bottom: 1.5rem;">
+                <div style="border: 1px solid #ddd; border-radius: 6px; padding: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+                    <h5 style="border-bottom: 1px solid #ccc; padding-bottom: 0.5rem;">{{ category }}</h5>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
+                        {% for service in services %}
+                        <li>{{ service }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+{% endblock %}

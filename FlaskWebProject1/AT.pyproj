@@ -30,7 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AT\routes\AWS_routes.py" />
-    <Compile Include="AT\templates\AWS_templates\VPC.html" />
+    <Compile Include="AT\routes\terra_module_routes.py" />
     <Compile Include="runserver.py" />
     <Compile Include="AT\__init__.py" />
     <Compile Include="AT\routes\index_routes.py" />
@@ -43,16 +43,18 @@
     <Folder Include="AT\static\fonts\" />
     <Folder Include="AT\static\scripts\" />
     <Folder Include="AT\templates\" />
-    <Folder Include="AT\templates\AWS_templates\" />
+    <Folder Include="AT\templates\aws\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AT\static\content\layout.css" />
+    <Content Include="AT\templates\aws\add_terra_modules.html" />
     <Content Include="AT\templates\AWS.html" />
-    <Content Include="AT\templates\aws_dashboard.html" />
-    <Content Include="AT\templates\create_aws_architecture.html" />
+    <Content Include="AT\templates\aws\aws_dashboard.html" />
+    <Content Include="AT\templates\aws\create_aws_architecture.html" />
     <Content Include="AT\templates\AZURE.html" />
-    <Content Include="AT\templates\edit_aws_architecture.html" />
+    <Content Include="AT\templates\aws\edit_aws_architecture.html" />
     <Content Include="AT\templates\GCP.html" />
+    <Content Include="AT\templates\aws\view_aws_architecture.html" />
     <Content Include="requirements.txt" />
     <Content Include="AT\static\content\bootstrap.css" />
     <Content Include="AT\static\content\bootstrap.min.css" />

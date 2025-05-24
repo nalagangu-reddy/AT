@@ -6,10 +6,12 @@ from os import environ
 from AT import app
 from pymongo import MongoClient
 from AT.routes.AWS_routes import aws_bp
+from AT.routes.terra_module_routes import terra_modules_bp
 
 
 
 app.register_blueprint(aws_bp)
+app.register_blueprint(terra_modules_bp)
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')

@@ -20,19 +20,21 @@
                 {% for category, services in arch.services.items() %}
                 <div style="margin-left: 1rem; margin-top: 0.5rem;">
                     <h6 style="margin-bottom: 0.2rem;">{{ category }}</h6>
-                    <ul style="margin-left: 1rem;">
-                        {% for service in services %}
-                        <li>{{ service }}</li>
-                        {% endfor %}
-                    </ul>
+ 
                 </div>
                 {% endfor %}
 
             </div>
             <div>
+         
+                <a href="{{ url_for('aws.view_aws_architecture', arch_id=arch._id) }}" class="btn btn-secondary btn-sm">
+                    View
+                </a>
                 <a href="{{ url_for('aws.edit_aws_architecture', arch_id=arch._id) }}" class="btn btn-warning btn-sm">
                     Update
                 </a>
+
+
                 <form method="POST" action="{{ url_for('aws.delete_architecture', arch_id=arch._id) }}"
                       style="display:inline;"
                       onsubmit="return confirm('Are you sure you want to delete this architecture?');">
