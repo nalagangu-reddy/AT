@@ -35,7 +35,56 @@ def create_architecture():
 
     return redirect(url_for('aws.aws_dashboard'))
 
+@aws_bp.route('/edit_aws_architecture/<arch_id>', methods=['GET'])
+def edit_aws_architecture(arch_id):
+    # Fetch architecture record by ID
+    architecture = db["aws_architecture_table"].find_one({"_id": ObjectId(arch_id)})
+    if not architecture:
+        return "Architecture not found", 404
 
+    architecture['_id'] = str(architecture['_id'])
+
+    # Convert service list into a dictionary grouped by category
+    services_raw = architecture.get('services', [])
+    if isinstance(services_raw, list):
+        services_by_category = {}
+        for item in services_raw:
+            if "::" in item:
+                category, service = item.split('::', 1)
+                services_by_category.setdefault(category, []).append(service)
+        architecture['services'] = services_by_category
+
+    # Get full service list grouped by category (used for UI dropdowns or display)
+    AWS_Category = db["Services_by_category"]
+    data = list(AWS_Category.find())  # Same as used in create_aws_architecture
+
+    return render_template(
+        'edit_aws_architecture.html',
+        architecture=architecture,
+        data=data,  # services grouped by category
+        title="AWS"
+    )
+
+
+@aws_bp.route('/update_aws_architecture/<arch_id>', methods=['POST'])
+def update_aws_architecture(arch_id):
+    architecture_name = request.form.get('architecture_name')
+    selected_services_raw = request.form.getlist('services')
+
+    services_by_category = {}
+    for item in selected_services_raw:
+        category, service = item.split('::', 1)
+        services_by_category.setdefault(category, []).append(service)
+
+    db["aws_architecture_table"].update_one(
+        {"_id": ObjectId(arch_id)},
+        {"$set": {
+            "architecture_name": architecture_name,
+            "services": services_by_category
+        }}
+    )
+
+    return redirect(url_for('aws.aws_dashboard'))
 
 
 @aws_bp.route('/aws_dashboard')

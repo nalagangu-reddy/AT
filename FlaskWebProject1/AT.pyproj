@@ -51,6 +51,7 @@
     <Content Include="AT\templates\aws_dashboard.html" />
     <Content Include="AT\templates\create_aws_architecture.html" />
     <Content Include="AT\templates\AZURE.html" />
+    <Content Include="AT\templates\edit_aws_architecture.html" />
     <Content Include="AT\templates\GCP.html" />
     <Content Include="requirements.txt" />
     <Content Include="AT\static\content\bootstrap.css" />
